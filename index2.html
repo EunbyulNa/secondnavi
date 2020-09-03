@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    
+    <title>Navigation 2</title>
+    <style media="screen">
+      * {
+        margin: 0;
+        padding: 0;
+        color:inherit;
+        font: inherit;
+      }
+
+      li {
+        list-style: none;
+      }
+
+      a {
+        text-decoration: none;
+      }
+
+      body {
+        font-family: "맑은 고딕";
+        background: url('btsback.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+      }
+
+      #header {
+        border-bottom: 1px solid gray;
+      }
+
+      .container {
+
+        margin: auto;
+      width: 1100px;
+      }
+
+      .container::after {
+        display: block;
+        content: "";
+        clear:both;
+      }
+
+      h1 {
+
+        float:left;
+      margin-top: 30px;
+      margin-right: 90px;
+      text-indent: -9999px;
+      }
+
+      h1 a {
+        display: block;
+        background:url('logo_1.png');
+        width: 203px;
+        height: 27px;
+
+      }
+      .gnb{
+
+        float: left;
+       margin-top: 30px;
+       margin-bottom: 30px;
+
+      }
+
+      .gnb li {
+        float: left;
+
+        margin-right: 60px;
+      }
+
+      .gnb li a {
+      font-size: 20px;
+      }
+      .btn {
+        margin-top: 10px;
+        margin-bottom: 20px;
+        float:right;
+
+      }
+
+      .btn button {
+        margin-top: 10px;
+        border: none;
+        cursor: pointer;
+      }
+
+    </style>
+  </head>
+  <body>
+<div id="header">
+  <div class="container">
+    <h1><a href="#">지란지교지란</a></h1>
+    <ul class="gnb">
+      <li><a href="#">Product</a></li>
+      <li><a href="#">Support</a></li>
+      <li><a href="#">PR</a></li>
+      <li><a href="#">IR</a></li>
+      <li><a href="#">JiranSecurity</a></li>
+    </ul>
+    <div class="btn">
+      <button><img src="btn_menu.png" alt="전체메뉴보기"></button>
+      <button><img src="btn_search.png" alt="찾기"></button>
+    </div>
+  </div>
+
+</div>
+  </body>
+</html>
